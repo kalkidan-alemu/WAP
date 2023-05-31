@@ -1,0 +1,36 @@
+h1,h3 {
+    color:rgb(248, 79, 0);
+}
+body{
+    background-color:rgb(97, 88, 81);
+}
+
+
+p,ul,ol {
+    color: azure;
+}
+#mission{
+    font-style: italic;
+}
+
+.change{
+    color: rgb(251, 231, 51);
+    font-weight: bold;
+}
+.MyPic{
+    width: 40%;
+}
+span{
+    color: aliceblue;
+}
+.discription{
+    font-style: italic;
+}
+/*h1{
+    text-align: center;
+}*/
+ul,ol{
+    line-height:30px ;
+}
+
+

@@ -1,0 +1,58 @@
+header{
+    color: black;
+background-color:rgb(229, 108, 199);
+    
+}
+
+.head-container{
+    display: flex;
+    
+}
+h2{
+    padding-right: 50px;
+    padding-left: 20px;
+}
+#action-select{
+    align-items: center;
+    background-color: rgb(229, 108, 199);
+}
+
+#cointainer{
+display: grid;
+grid-template-columns: 1fr 1fr; /* Two equal-sized columns */
+grid-template-rows: 100vh; /* 100% height of viewport */
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 60px;
+}
+
+#main{
+    padding-top: 30px;
+    
+}
+#main2{
+    padding-top: 30px;
+    margin-left: 60px;
+}
+.forms{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+.required{
+    color: red;
+}
+
+#underline{
+text-decoration: underline;
+
+}
+#addr{
+    width: 340px;
+    height: 90px;
+}
+button{
+    align-items: center;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="workShop.css" />
+  </head>
+  <body>
+    <header>
+      <form action="#" method="get">
+        <div class="head-container">
+          <label> <h2>Workshop Register</h2> </label>
+          <select name=" action" id="action-select">
+            <option value="more">More Action</option>
+            <option value="profile">View Profile</option>
+          </select>
+        </div>
+      </form>
+    </header>
+    <!--https://www.google.com/search-->
+    <main>
+      <div id="cointainer">
+        <div id="main">
+          <p id="underline"> Rigister now while seata are available!</p>
+          <form action="#" method="get">
+            <div class="forms">
+              <label for="firstname">
+                First Name <span class="required">*</span>
+              </label>
+              <input
+                id="firstname"
+                type="text"
+                size="20"
+                placeholder="enter first name"
+                name="first name"
+              />
+            </div>
+
+            <div class="forms">
+              <lable for="lastname">
+                Last Name <span class="required">*</span>
+              </lable>
+              <input
+                id="lastname"
+                type="text"
+                size="20"
+                name="last name"
+                placeholder="enter last name"
+                name="last name"
+              />
+            </div>
+
+            <div class="forms">
+              <label for="compa">
+                Company/Institution <span class="required">*</span></label
+              >
+              <input id="compa" type="text" name="company" />
+            </div>
+
+            <div class="forms">
+              <label for="addr">Address <span class="required">*</span> </label>
+              <textarea name="location" id="addr"></textarea>
+            </div>
+
+            <div class="forms">
+              <lable for="city"> City </lable>
+              <input id="city" type="text" size="20" name="city" />
+            </div>
+
+            <div class="forms">
+              <label id="drop" for="state">State/ Province/ Region</label>
+              <select name="region" id="state">
+                <option>-select-</option>
+                <option>AL</option>
+                <option>AK</option>
+                <option>CA</option>
+                <option>DE</option>
+                <option>FL</option>
+                <option>GU</option>
+                <option>LA</option>
+                <option>NV</option>
+                <option>NY</option>
+                <option>TX</option>
+              </select>
+            </div>
+
+            <div class="forms">
+              <label id="drop" for="coun">Country</label>
+              <select id="coun" name="country" >
+                <option>-select-</option>
+                <option>Algeria</option>
+                <option>Bangladesh</option>
+                <option>China</option>
+                <option>Denmark</option>
+                <option>Ethiopia</option>
+                <option>France</option>
+                <option>Kenya</option>
+                <option>Nepal</option>
+                <option>Spain</option>
+                <option>United States</option>
+              </select>
+            </div>
+
+            <div class="forms">
+              <label>Email <span>*</span></label>
+              <input type="text" name="male"/>
+            </div>
+
+            <div class="forms">
+              <label>Phone Number <span>*</span> </label>
+               <input type="text" name="phone"/>
+            </div>
+          </form>
+        </div>
+
+        <div id="main2">
+          <p id="underline"> lunch</p>
+        
+        <form action="#" method="get">
+          <div class="forms">
+            <label id="drop" for="meal">Meal Preferance</label>
+            <select name="region" id="meal">
+              <option>Vegitarian</option>
+              <option>Non-vegi</option>
+              <option>Chicken</option>
+              <option>Beaf</option>
+              <option>Pasta</option>
+            </select>
+          </div>
+
+          <div><span id="underline"> Payment Details</span></div>
+
+          <div class="forms">
+            <label for="">Payment Mode</label>
+
+            <div><input type="checkbox" />Cash</div><br>
+
+            <div><input type="checkbox" />checque</div><br>
+
+            <div><input type="checkbox" />Demand Draft</div><br>
+          </div>
+
+          <div class="forms">
+            <lable for="checque"> DD/Checque No. </lable>
+            <input id="checque" type="text" size="20" name="checque-no" />
+          </div>
+
+          <div class="forms">
+            <lable for="bank-name"> Drawn On(Bank Name) </lable>
+            <input id="bank-name" type="text" size="20" name="bank" />
+          </div>
+
+          <div class="forms">
+            <lable for="pay"> Payable at </lable>
+            <input id="pay" type="text" size="20" name="payable" />
+          </div>
+        </form>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+        <button>Submit</button>
+        <input type="reset" name="reset">
+    </footer>
+  </body>
+</html>

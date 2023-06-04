@@ -50,9 +50,15 @@ text-decoration: underline;
 
 }
 #addr{
-    width: 340px;
+    width: 160px;
     height: 90px;
 }
 button{
+    align-items: center;
+}
+footer{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
